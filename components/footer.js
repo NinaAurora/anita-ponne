@@ -17,7 +17,7 @@ export default function Footer() {
 
           <Link href="/contact">
             <a>
-              <button className="bg-white font-medium text-slate-900 rounded-lg py-6 px-14 uppercase transition ease-in hover:bg-slate-300  active:bg-slate-500">
+              <button className="bg-white font-medium text-slate-900 rounded-lg py-6 px-14 uppercase transition ease-in hover:bg-slate-300 active:bg-slate-500">
                 Contact me!
               </button>
             </a>
@@ -49,6 +49,5 @@ export default function Footer() {
         </div>
       </div>
     </div>
-
   )
 }

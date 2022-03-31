@@ -46,18 +46,19 @@ export { NavLink };
             {/* Desktop navbar*/}
             <div className="bg-white drop-shadow uppercase hidden md:block">
                 <div className="container mx-auto py-8 flex justify-between items-center">
-                    <div className="">
-                        <div className="flex justify-center">
-                            <Image
-                            src={eyeLogo}
-                            alt="Eye logo"
-                            width={50}
-                            height={50}
-                            />
-                        </div>
-                        <p className="text-3xl font-medium">Anita Ponne</p>
-                    </div>
-
+                    <Link href="/">
+                        <a className="">
+                            <div className="flex justify-center">
+                                <Image
+                                src={eyeLogo}
+                                alt="Eye logo"
+                                width={50}
+                                height={50}
+                                />
+                            </div>
+                            <p className="text-3xl font-medium">Anita Ponne</p>
+                        </a>
+                    </Link>
                     <ul className="flex gap-x-8">
                         <li>
                             <NavLink href="/">

@@ -44,7 +44,7 @@ export { NavLink };
         <nav className="">
 
             {/* Desktop navbar*/}
-            <div className="bg-white drop-shadow uppercase hidden md:block">
+            <div className="bg-white drop-shadow uppercase hidden lg:block">
                 <div className="container mx-auto py-8 flex justify-between items-center">
                     <Link href="/">
                         <a className="">

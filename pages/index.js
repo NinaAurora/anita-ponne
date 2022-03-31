@@ -30,18 +30,8 @@ export default function HomePage() {
           Met invloeden van Sesamstraat en jaren 60 kunst.
         </p>
       </div>
-
-      <Eye color="red" size={100} className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mix-blend-overlay" />
-      <Eye color="red" size={100} className="absolute top-1/4 left-1/3 transform -translate-x-1/2 translate-y-1/3 -rotate-45 mix-blend-overlay" />
-      <Eye color="red" size={100} className="absolute top-1/4 left-2/3 transform -translate-x-1/2 translate-y-1/3 rotate-45 mix-blend-overlay" />
-
-      <Eye color="red" size={100} className="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mix-blend-overlay" />
-      <Eye color="red" size={100} className="absolute top-2/4 left-1/3 transform -translate-x-1/2 translate-y-3/4 rotate-45 mix-blend-overlay" />
-      <Eye color="red" size={100} className="absolute top-2/3 left-2/3  transform -translate-x-1/2 -translate-y-1/3 -rotate-45 mix-blend-overlay" />
     </div>
-
-
-      
+  
   </div>
 
   )

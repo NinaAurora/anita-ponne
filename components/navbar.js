@@ -4,9 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import PropTypes from "prop-types";
 
-import eyeLogo from "../public/eye.svg";
-import closeIcon from "../public/close.svg";
-import menuIcon from "../public/menu.svg";
+import { Eye, X, Menu } from "react-feather";
 import useComponentVisible from "./useComponentVisible";
 
 export { NavLink };
@@ -47,7 +45,7 @@ export default function Navbar() {
           <Link href="/">
             <a className="">
               <div className="flex justify-center">
-                <Image src={eyeLogo} alt="Eye logo" width={50} height={50} />
+                <Eye />
               </div>
               <p className="text-3xl font-medium">Anita Ponne</p>
             </a>
@@ -75,13 +73,7 @@ export default function Navbar() {
         <div className="px-8 my-4 flex justify-between block lg:hidden">
           <Link href="/">
             <a>
-              <Image
-                className=""
-                src={eyeLogo}
-                alt="Eye logo"
-                width={50}
-                height={50}
-              />
+              <Eye />
             </a>
           </Link>
 
@@ -90,9 +82,9 @@ export default function Navbar() {
             onClick={() => setIsComponentVisible(!isComponentVisible)}
           >
             {!isComponentVisible ? (
-              <Image src={menuIcon} alt="Menu Icon" width={40} height={40} />
+              <Menu />
             ) : (
-              <Image src={closeIcon} alt="Close Icon" width={40} height={40} />
+              <X />
             )}
           </button>
         </div>

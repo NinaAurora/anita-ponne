@@ -1,22 +1,42 @@
 import Image from "next/image";
 
-import paintingsTwo from "../public/paintings2.jpeg";
+import abstract from "../public/abstract.jpg";
 
 export default function Contact() {
   return (
     <div className="container bg-white mx-auto">
+      <div className="relative h-80">
+        <Image
+          src={abstract}
+          alt="Abstract art"
+          layout="fill"
+          objectFit="cover"
+        />
+
+        <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl md:text-6xl font-semibold uppercase text-white">
+          Contact me
+        </h1>
+      </div>
       <div className="grid lg:grid-cols-2 md:gap-12">
-        <div className="w-full h-80 lg:h-full relative">
-          <Image
-            src={paintingsTwo}
-            alt="Handful of abstract paintings leaning against a wall"
-            layout="fill"
-            objectFit="cover"
-          />
+        <div className="w-1/2 py-10 mx-auto">
+          <h1 className="text-3xl font-semibold uppercase py-4">
+            Send an e-mail
+          </h1>
+          <p className="py-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. In
+            delectus magni quibusdam est odio doloremque sequi placeat mollitia
+            vel eum pariatur consequuntur reiciendis, tempora optio laborum,
+            vitae voluptatibus quae incidunt!
+          </p>
+          <p className="py-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae
+            eos fugiat! Fuga excepturi fugiat asperiores non nihil eligendi,
+            quaerat aut, dolorem doloribus corporis blanditiis dolore sint
+            libero mollitia nulla?
+          </p>
         </div>
 
         <div className="px-8 md:pr-16 py-10">
-          <h1 className="text-3xl font-semibold uppercase pb-6">Contact me</h1>
           <form>
             <div className="mb-6">
               <input
@@ -57,14 +77,6 @@ export default function Contact() {
           </form>
         </div>
       </div>
-
-
-      <div className="w-1/2 py-10 mx-auto">
-            <h1 className="text-3xl font-semibold uppercase py-4">Contact me</h1>
-            <p className="py-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In delectus magni quibusdam est odio doloremque sequi placeat mollitia vel eum pariatur consequuntur reiciendis, tempora optio laborum, vitae voluptatibus quae incidunt!</p>
-            <p className="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae eos fugiat! Fuga excepturi fugiat asperiores non nihil eligendi, quaerat aut, dolorem doloribus corporis blanditiis dolore sint libero mollitia nulla?</p>
-          </div>
-
     </div>
   );
 }

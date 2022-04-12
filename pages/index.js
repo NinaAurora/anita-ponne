@@ -1,20 +1,19 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import { ArrowRight } from 'react-feather';
-import abstract from '../public/abstract.jpg'
+import Link from "next/link";
+import Image from "next/image";
+import { ArrowRight } from "react-feather";
+import abstract from "../public/abstract.jpg";
 
 export default function HomePage() {
   return (
-
     <div className="container mx-auto md:px-0 overflow-hidden">
       <div className="relative h-screen">
         <Image
           src={abstract}
-          alt="Hands covered in paint"
+          alt="Abstract art"
           layout="fill"
           objectFit="cover"
           className="opacity-75"
-          />
+        />
 
         <Link href="/gallery">
           <a>
@@ -24,15 +23,14 @@ export default function HomePage() {
               </h1>
               <div className="flex items-center justify-center">
                 <p className="pt-4 md:pt-0 text-xl font-medium px-4 md:px-0">
-                  Met invloeden van Sesamstraat en jaren 60 kunst 
+                  Met invloeden van Sesamstraat en jaren 60 kunst
                 </p>
-                <ArrowRight color="white" size={32} className="pl-2 " />
+                <ArrowRight color="white" size={32} className="pl-2" />
               </div>
             </div>
           </a>
         </Link>
       </div>
     </div>
-  )
+  );
 }
- 

@@ -13,7 +13,7 @@ export default function About() {
         <div className="w-full h-80 lg:h-full relative">
           <Image
             src={paintingsOne}
-            alt="Artist holding a palette"
+            alt="Abstract paintings on a shelf"
             layout="fill"
             objectFit="cover"
           />
@@ -75,7 +75,12 @@ export default function About() {
       </div>
 
       <div className="relative h-80">
-        <Image src={paintingsTwo} layout="fill" objectFit="cover" />
+        <Image
+          src={paintingsTwo}
+          alt="Close up of abstract paintings"
+          layout="fill"
+          objectFit="cover"
+        />
         <Eye
           color="white"
           size={200}
@@ -129,6 +134,7 @@ export default function About() {
           <div className="relative mx-auto mt-10 h-60 w-60 ">
             <Image
               src={illustration}
+              alt="Various abstract illustrations on paper"
               layout="fill"
               objectFit="cover"
               className="rounded-full"

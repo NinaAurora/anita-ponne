@@ -47,8 +47,8 @@ function Gallery() {
   };
 
   return (
-    <div className="container mx-auto">
-      <div className="py-12 text-center">
+    <div className="container mx-auto bg-white">
+      <div className="py-12 text-center ">
         <h1 className="text-3xl font-medium uppercase">Gallery</h1>
       </div>
 
@@ -71,7 +71,6 @@ function Gallery() {
               <p className="">{item.text}</p>
               <p className=""> {item.price}</p>
             </div>
-
           </div>
         ))}
         <div>
@@ -86,7 +85,8 @@ function Gallery() {
         </div>
       </div>
 
-      <div className="py-12">
+      <div className="py-12 px-16">
+        <h1 className="text-3xl font-medium uppercase py-4">Purchasing</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
           tenetur eaque, quam aliquam voluptatum debitis, pariatur magnam soluta

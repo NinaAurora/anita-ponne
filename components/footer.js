@@ -27,17 +27,17 @@ export default function Footer() {
         <div className="grid grid-cols-1 justify-items-center items-center uppercase">
           <div className='flex justify-center gap-12 py-10'>
             <a href='https://www.facebook.com/'
-                target={"_blank"}>
+                target={"_blank"} rel="noreferrer">
             <Facebook color="white" size={40} />
             </a>
 
             <a href='https://www.instagram.com/'
-                target={"_blank"}>
+                target={"_blank"} rel="noreferrer">
             <Instagram color="white" size={40} />
             </a>
 
             <a href='https://www.linkedin.com/'
-                target={"_blank"}>
+                target={"_blank"} rel="noreferrer">
             <Linkedin color="white" size={40} />
             </a>
           </div>

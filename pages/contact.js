@@ -37,7 +37,7 @@ export default function Contact() {
         </div>
 
         <div className="px-8 md:pr-16 py-10">
-          <form>
+          <form netlify>
             <div className="mb-6">
               <input
                 type="text"

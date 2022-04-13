@@ -44,7 +44,7 @@ export default function Contact() {
             data-netlify="true"
           >
             <input type="hidden" name="form-name" value="contact" />
-            <p className="">
+            <p className="mb-6">
               <input
                 type="text"
                 name="firstname"
@@ -52,7 +52,6 @@ export default function Contact() {
                 placeholder="Your Name"
                 className="w-full rounded px-4 py-3 bg-gray-100 border-2 outline-none focus:border-slate-500"
               />
-              <input type="text" name="name" id="yourname" />
             </p>
             <p className="mb-6">
               <input

@@ -1,32 +1,49 @@
 {
     "data": [
       {
-        "text": "Description of image is here image1",
-        "link": "http://placeimg.com/640/360/any"
+        "link": "/abstract.jpg",
+        "text": "An abstract image",
+        "price": "1000 Euro",
+        "status": "line-through"
+
       },
       {
-        "text": "Description of image is here image2",
-        "link": "http://placeimg.com/640/360/animals"
+        "link": "/brushes.jpg",
+        "text": "An abstract image",
+        "price": "1000 Euro",
+        "status": "line-through"
       },
       {
-        "text": "Description of image is here image3",
-        "link": "http://placeimg.com/640/360/people"
+        "link": "/hands.jpg",
+        "text": "An abstract image",
+        "price": "1000 Euro",
+        "status": "line-through"
       },
       {
-        "text": "Description of image is here image4",
-        "link": "http://placeimg.com/640/360/tech"
+        "link": "/illustrations.jpeg",
+        "text": "An abstract image",
+        "price": "1000 Euro",
+        "status": ""
+
       },
       {
-        "text": "Description of image is here image4",
-        "link": "https://placeimg.com/1000/800/any"
+        "link": "/paintings1.jpeg",
+        "text": "An abstract image",
+        "price": "1000 Euro",
+        "status": ""
       },
       {
-        "text": "Description of image is here image4",
-        "link": "https://placeimg.com/500/500/any"
+        "link": "/paintings2.jpeg",
+        "text": "An abstract image",
+        "price": "1000 Euro",
+        "status": ""
       },
       {
-        "text": "Description of image is here image4",
-        "link": "https://placeimg.com/800/400/any"
+        "link": "/palette.jpg",
+        "text": "An abstract image",
+        "price": "1000 Euro",
+        "status": "line-through"
+
       }
     ]
   }

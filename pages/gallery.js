@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import data from "../src/data/images.json";
 import Modal from "../components/modal";
+import Image from "next/image";
 
 function Gallery() {
   const [clickedImg, setClickedImg] = useState(null);
@@ -11,7 +12,7 @@ function Gallery() {
     setClickedImg(item.link);
   };
 
-  const handelRotationRight = () => {
+  const handleRotationRight = () => {
     const totalLength = data.data.length;
     if (currentIndex + 1 >= totalLength) {
       setCurrentIndex(0);
@@ -28,7 +29,7 @@ function Gallery() {
     setCurrentIndex(newIndex);
   };
 
-  const handelRotationLeft = () => {
+  const handleRotationLeft = () => {
     const totalLength = data.data.length;
     if (currentIndex === 0) {
       setCurrentIndex(totalLength - 1);
@@ -47,70 +48,57 @@ function Gallery() {
 
   return (
     <div className="container mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-4">
+      <div className="py-12 text-center">
+        <h1 className="text-3xl font-medium uppercase">Gallery</h1>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 leading-[0rem]">
         {data.data.map((item, index) => (
-          <div key={index} className="relative">
-            <img
+          <div
+            key={index}
+            className="relative transition ease-in-out hover:scale-105 cursor-pointer"
+          >
+            <Image
               src={item.link}
-              alt={item.text}
+              alt="me"
+              width="500"
+              height="500"
               onClick={() => handleClick(item, index)}
-              className="object-cover w-[520px] h-[400px] cursor-pointer"
+              objectFit="cover"
             />
-            <h2 className="absolute inset-x-0 bottom-0 text-center text-white text-xl font-medium py-4 drop-shadow">{item.text}</h2>
+
+            <div className="{item.status} bg-slate-800/20 absolute inset-x-0 bottom-0 text-center text-white text-xl font-medium py-4 drop-shadow flex justify-around">
+              <p className="">{item.text}</p>
+              <p className=""> {item.price}</p>
+            </div>
+
           </div>
         ))}
         <div>
           {clickedImg && (
             <Modal
               clickedImg={clickedImg}
-              handelRotationRight={handelRotationRight}
+              handelRotationRight={handleRotationRight}
               setClickedImg={setClickedImg}
-              handelRotationLeft={handelRotationLeft}
+              handelRotationLeft={handleRotationLeft}
             />
           )}
         </div>
+      </div>
+
+      <div className="py-12">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+          tenetur eaque, quam aliquam voluptatum debitis, pariatur magnam soluta
+          nisi numquam molestiae dolorum ad corporis earum. Ipsa aliquam
+          temporibus totam praesentium? Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. At velit provident commodi beatae! Hic, impedit
+          laudantium, ullam excepturi odio suscipit veniam quisquam tempore
+          nesciunt quaerat in ratione? Id, odit nam?
+        </p>
       </div>
     </div>
   );
 }
 
 export default Gallery;
-
-// import Image from "next/image";
-// import React from "react";
-
-// import eyeLogo from "../public/eye.svg";
-
-// export default function Gallery() {
-//   return (
-//     <div className="container mx-auto">
-//       <div className="grid grid-cols-1 md:grid-cols-3">
-//         <div className="bg-violet-600">
-//           <Image src={eyeLogo} alt="Eye logo" width={500} height={500} />
-//         </div>
-
-//         <div className="bg-pink-500 relative">
-//           <Image src={eyeLogo} alt="Eye logo" width={500} height={500} />
-//           <p className="uppercase absolute inset-x-0 bottom-0 text-center pb-4 text-xl font-medium">
-//             Painting Title
-//           </p>
-//         </div>
-
-//         <div className="bg-lime-400">
-//           <Image src={eyeLogo} alt="Eye logo" width={500} height={500} />
-//         </div>
-//         <div className="bg-yellow-300">
-//           <Image src={eyeLogo} alt="Eye logo" width={500} height={500} />
-//         </div>
-
-//         <div className="bg-sky-500">
-//           <Image src={eyeLogo} alt="Eye logo" width={500} height={500} />
-//         </div>
-
-//         <div className="bg-red-600">
-//           <Image src={eyeLogo} alt="Eye logo" width={500} height={500} />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }

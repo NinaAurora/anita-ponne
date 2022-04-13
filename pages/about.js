@@ -47,16 +47,16 @@ export default function About() {
             lap of carnation milk then retire to the warmest spot on the couch
             to claw at the fabric before taking a catnap. Catasstrophe going to
             catch the red dot today going to catch the red dot today and
-            ð•„ð”¼ð•†ð•Ž. Adventure always. One of these days i'm going to get
-            that red dot, just you wait and see i show my fluffy belly but it's
-            a trap! if you pet it i will tear up your hand or x poop on grasses
-            so cat ass trophy and human is washing you why halp oh the horror
-            flee scratch hiss bite. Lick master's hand at first then bite
-            because im moody meowzer need to check on human, have not seen in an
-            hour might be dead oh look, human is alive, hiss at human, feed me
-            for run off table persian cat jump eat fish tweeting a baseball
-            spill litter box, scratch at owner, destroy all furniture,
-            especially couch love blinks and purr purr purr purr yawn.
+            Adventure always. One of these days i'm going to get that red dot,
+            just you wait and see i show my fluffy belly but it's a trap! if you
+            pet it i will tear up your hand or x poop on grasses so cat ass
+            trophy and human is washing you why halp oh the horror flee scratch
+            hiss bite. Lick master's hand at first then bite because im moody
+            meowzer need to check on human, have not seen in an hour might be
+            dead oh look, human is alive, hiss at human, feed me for run off
+            table persian cat jump eat fish tweeting a baseball spill litter
+            box, scratch at owner, destroy all furniture, especially couch love
+            blinks and purr purr purr purr yawn.
           </p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
@@ -90,7 +90,9 @@ export default function About() {
 
       <div className="p-8 md:py-32 md:px-16 grid lg:grid-cols-3 md:gap-24">
         <div className="md:col-span-2">
-          <h1 className="text-3xl font-medium uppercase py-4">Cats 'n paint</h1>
+          <h1 className="text-3xl font-medium uppercase py-4">
+            Cats and paint
+          </h1>
           <p className="py-4">
             Cat ipsum dolor sit amet, hell is other people and steal the warm
             chair right after you get up sit as close as possible to warm fire
@@ -117,17 +119,17 @@ export default function About() {
             daintily with a claw then lick paws clean wash down prawns with a
             lap of carnation milk then retire to the warmest spot on the couch
             to claw at the fabric before taking a catnap. Catasstrophe going to
-            catch the red dot today going to catch the red dot today and
-            ð•„ð”¼ð•†ð•Ž. Adventure always. One of these days i'm going to get
-            that red dot, just you wait and see i show my fluffy belly but it's
-            a trap! if you pet it i will tear up your hand or x poop on grasses
-            so cat ass trophy and human is washing you why halp oh the horror
-            flee scratch hiss bite. Lick master's hand at first then bite
-            because im moody meowzer need to check on human, have not seen in an
-            hour might be dead oh look, human is alive, hiss at human, feed me
-            for run off table persian cat jump eat fish tweeting a baseball
-            spill litter box, scratch at owner, destroy all furniture,
-            especially couch love blinks and purr purr purr purr yawn.
+            catch the red dot today going to catch the red dot today and.
+            Adventure always. One of these days i'm going to get that red dot,
+            just you wait and see i show my fluffy belly but it's a trap! if you
+            pet it i will tear up your hand or x poop on grasses so cat ass
+            trophy and human is washing you why halp oh the horror flee scratch
+            hiss bite. Lick master's hand at first then bite because im moody
+            meowzer need to check on human, have not seen in an hour might be
+            dead oh look, human is alive, hiss at human, feed me for run off
+            table persian cat jump eat fish tweeting a baseball spill litter
+            box, scratch at owner, destroy all furniture, especially couch love
+            blinks and purr purr purr purr yawn.
           </p>
         </div>
         <div className="bg-gray-100 px-4 text-center">

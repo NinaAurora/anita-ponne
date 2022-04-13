@@ -62,7 +62,7 @@ function Gallery() {
               src={item.link}
               alt="me"
               width="500"
-              height="500"
+              height="700"
               onClick={() => handleClick(item, index)}
               objectFit="cover"
             />

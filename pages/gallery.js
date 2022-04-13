@@ -65,6 +65,8 @@ function Gallery() {
               height="700"
               onClick={() => handleClick(item, index)}
               objectFit="cover"
+              placeholder="blur"
+              blurDataURL="/placeholder-image.png"
             />
 
             <div className="{item.status} bg-slate-800/20 absolute inset-x-0 bottom-0 text-center text-white text-xl font-medium py-4 drop-shadow flex justify-around">

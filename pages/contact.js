@@ -37,43 +37,49 @@ export default function Contact() {
         </div>
 
         <div className="px-8 md:pr-16 py-10">
-          <form name="contact" action="/success" method="POST" data-netlify="true">
-            <div className="mb-6">
+          <form
+            name="contact"
+            action="/success"
+            method="POST"
+            data-netlify="true"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <p className="">
               <input
                 type="text"
+                name="firstname"
+                id="firstname"
                 placeholder="Your Name"
                 className="w-full rounded px-4 py-3 bg-gray-100 border-2 outline-none focus:border-slate-500"
               />
-            </div>
-            <div className="mb-6">
+              <input type="text" name="name" id="yourname" />
+            </p>
+            <p className="mb-6">
               <input
                 type="email"
+                name="email"
+                id="youremail"
                 placeholder="Your Email"
                 className="w-full rounded px-4 py-3 bg-gray-100 border-2 outline-none focus:border-slate-500"
               />
-            </div>
-            <div className="mb-6">
-              <input
-                type="text"
-                placeholder="Your Phone"
-                className="w-full rounded px-4 py-3 bg-gray-100 border-2 outline-none focus:border-slate-500"
-              />
-            </div>
-            <div className="mb-6">
+            </p>
+            <p className="mb-6">
               <textarea
+                name="message"
+                id="yourmessage"
                 rows="6"
                 placeholder="Your Message"
                 className="w-full rounded px-4 py-3 bg-gray-100 border-2 outline-none focus:border-slate-500"
               ></textarea>
-            </div>
-            <div>
+            </p>
+            <p className="mb-6">
               <button
                 type="submit"
                 className="w-full py-3 text-white bg-slate-800 rounded-lg border border-primary  transition hover:bg-opacity-90"
               >
-                Send Message
+                Send
               </button>
-            </div>
+            </p>
           </form>
         </div>
       </div>

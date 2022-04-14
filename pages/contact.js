@@ -36,7 +36,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="px-8 md:pr-16 py-10">
+        <div className="px-8 md:pr-16 py-16">
           <form
             name="contact"
             action="/success"
@@ -71,7 +71,7 @@ export default function Contact() {
                 className="w-full rounded px-4 py-3 bg-gray-100 border-2 outline-none focus:border-slate-500"
               ></textarea>
             </p>
-            <p className="mb-6">
+            <p >
               <button
                 type="submit"
                 className="w-full py-3 text-white bg-slate-800 rounded-lg border border-primary  transition hover:bg-opacity-90"

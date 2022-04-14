@@ -52,11 +52,11 @@ function Gallery() {
         <h1 className="text-3xl font-medium uppercase">Gallery</h1>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 leading-[0rem]">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 leading-[0rem]">
         {data.data.map((item, index) => (
           <div
             key={index}
-            className="relative transition ease-in-out hover:scale-105 cursor-pointer"
+            className="relative transition ease-in-out hover:scale-105 cursor-default md:cursor-pointer"
           >
             <Image
               src={item.link}
@@ -87,8 +87,8 @@ function Gallery() {
         </div>
       </div>
 
-      <div className="py-12 px-16">
-        <h1 className="text-3xl font-medium uppercase py-4">Purchasing</h1>
+      <div className="p-8 md:py-12 md:px-16">
+        <h1 className="text-3xl font-medium uppercase pb-4 md:py-4">Purchasing</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
           tenetur eaque, quam aliquam voluptatum debitis, pariatur magnam soluta

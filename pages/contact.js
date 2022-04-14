@@ -18,7 +18,7 @@ export default function Contact() {
         </h1>
       </div>
       <div className="grid lg:grid-cols-2 md:gap-12">
-        <div className="w-1/2 py-10 mx-auto">
+        <div className="md:w-1/2 p-8 md:py-10 mx-auto">
           <h1 className="text-3xl font-semibold uppercase py-4">
             Send an e-mail
           </h1>

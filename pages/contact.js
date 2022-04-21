@@ -11,6 +11,8 @@ export default function Contact() {
           alt="Abstract art"
           layout="fill"
           objectFit="cover"
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNsb22tBwAFPgISPY96MgAAAABJRU5ErkJggg=="
         />
 
         <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl md:text-6xl font-semibold uppercase text-white">
@@ -71,7 +73,7 @@ export default function Contact() {
                 className="w-full rounded px-4 py-3 bg-gray-100 border-2 outline-none focus:border-slate-500"
               ></textarea>
             </p>
-            <p >
+            <p>
               <button
                 type="submit"
                 className="w-full py-3 text-white bg-slate-800 rounded-lg border border-primary  transition hover:bg-opacity-90"

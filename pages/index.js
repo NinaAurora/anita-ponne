@@ -13,6 +13,8 @@ export default function HomePage() {
           layout="fill"
           objectFit="cover"
           className="opacity-75"
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNsb22tBwAFPgISPY96MgAAAABJRU5ErkJggg=="
         />
 
         <Link href="/gallery">

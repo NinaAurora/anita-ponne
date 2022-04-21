@@ -16,6 +16,8 @@ export default function About() {
             alt="Abstract paintings on a shelf"
             layout="fill"
             objectFit="cover"
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNsb22tBwAFPgISPY96MgAAAABJRU5ErkJggg=="
           />
         </div>
         <div className="px-8 md:pr-16 pt-16">
@@ -80,6 +82,8 @@ export default function About() {
           alt="Close up of abstract paintings"
           layout="fill"
           objectFit="cover"
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNsb22tBwAFPgISPY96MgAAAABJRU5ErkJggg=="
         />
         <Eye
           color="white"
@@ -140,6 +144,8 @@ export default function About() {
               layout="fill"
               objectFit="cover"
               className="rounded-full"
+              placeholder="blur"
+              blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNsb22tBwAFPgISPY96MgAAAABJRU5ErkJggg=="
             />
           </div>
 

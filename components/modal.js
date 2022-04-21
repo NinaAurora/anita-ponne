@@ -30,7 +30,10 @@ const modal = ({
             className="flex overlay items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             onClick={handleClick}
           >
-            <button onClick={handelRotationLeft} className="p-2 m-4 cursor-pointer rounded-full transition ease-in-out bg-slate-900/30 hover:bg-slate-900/10">
+            <button
+              onClick={handelRotationLeft}
+              className="p-2 m-4 cursor-pointer rounded-full transition ease-in-out bg-slate-900/30 hover:bg-slate-900/10"
+            >
               <div className="   ">
                 <ArrowLeft size={50} color="white" />
               </div>
@@ -43,11 +46,16 @@ const modal = ({
                 layout="fill"
                 objectFit="contain"
                 onClick={() => handleClick(item, index)}
+                placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNsb22tBwAFPgISPY96MgAAAABJRU5ErkJggg=="
                 className="shadow-md w-full h-full"
               />
             </div>
 
-            <div onClick={handelRotationRight} className="p-2 m-4 cursor-pointer rounded-full transition ease-in-out bg-slate-900/30 hover:bg-slate-900/10">
+            <div
+              onClick={handelRotationRight}
+              className="p-2 m-4 cursor-pointer rounded-full transition ease-in-out bg-slate-900/30 hover:bg-slate-900/10"
+            >
               <div>
                 <ArrowRight size={50} color="white" />
               </div>

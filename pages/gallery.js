@@ -66,7 +66,7 @@ function Gallery() {
               onClick={() => handleClick(item, index)}
               objectFit="cover"
               placeholder="blur"
-              blurDataURL={item.link}
+              blurDataURL=”data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNsb22tBwAFPgISPY96MgAAAABJRU5ErkJggg==”
             />
 
             <div className="{item.status} bg-slate-800/20 absolute inset-x-0 bottom-0 text-center text-white text-xl font-medium py-4 drop-shadow flex justify-around">
